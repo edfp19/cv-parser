@@ -4,15 +4,14 @@
 **Duration:** 1-2 days
 
 ### Task 1.1: Project Setup
-- [ ] Create project directory and virtual environment
-- [ ] Install required packages: `python-docx`, `python-pptx`, `click`
-- [ ] Set up basic project structure (folders for src, tests, examples)
-- [ ] Initialize git repository
+- [x] Create project directory and virtual environment
+- [x] Install required packages: `python-docx`, `python-pptx`, `click`
+- [x] Set up basic project structure (folders for src, tests, examples)
+- [x] Initialize git repository
 
 ### Task 1.2: CLI Framework
-- [ ] Create main CLI entry point using `click`
-- [ ] Implement basic command structure with help text
-- [ ] Add version command
+- [x] Implement basic command structure with help text
+- [x] Add version command
 - [ ] Test CLI responds to `--help` and basic commands
 
 **Skills:** Python packaging, Click library, command line basics
