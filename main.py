@@ -37,6 +37,12 @@ print("\n--- Parsed CV Data (JSON) ---")
 print(json.dumps(parsed_cv_data, indent=4)) # Pretty print the JSON
 print("-" * 30)
 
+# --- Save the parsed data to a JSON file ---
+
+output_file = "parsed_cv_data.json"  # Define the output file name
+
+with open(output_file, "w", encoding="utf-8") as file:
+    json.dump(parsed_cv_data, file, indent=4)  # Save JSON data to the file
 
     
 if __name__ == "__main__":
